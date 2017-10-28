@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\AirPC\Downloads\oscpack_1_1_0_2\oscpack_1_1_0\tests\OscSendTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\AirPC\Downloads\oscpack_1_1_0_2\oscpack_1_1_0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E68B7C5E-6BB2-3DB5-BFC2-60647FBD5E0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

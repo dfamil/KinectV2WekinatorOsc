@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DD0DBAC8-5024-3AA2-82E0-56F5124BF833}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VisualStudioCMakeGeneratedProject>3.7.20170106-gd3236-dirty-MSVC_2</VisualStudioCMakeGeneratedProject>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\AirPC\Downloads\oscpack_1_1_0_2\oscpack_1_1_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\AirPC\Downloads\oscpack_1_1_0_2\oscpack_1_1_0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/AirPC/Downloads/oscpack_1_1_0_2/oscpack_1_1_0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\CMake\bin\cmake.exe" -HC:/Users/AirPC/Downloads/oscpack_1_1_0_2/oscpack_1_1_0 -BC:/Users/AirPC/AppData/Local/CMakeBuild/e245a06d-5231-2932-87e9-9abf56987c8d/build/x64-Debug --check-stamp-file C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/AirPC/Downloads/oscpack_1_1_0_2/oscpack_1_1_0/CMakeLists.txt;C:\Users\AirPC\Downloads\oscpack_1_1_0_2\oscpack_1_1_0\CMakeLists.txt;C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeCCompiler.cmake;C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\CMakeFiles\3.7.20170106-gd3236-dirty-MSVC_2\CMakeRCCompiler.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\AirPC\Downloads\oscpack_1_1_0_2\oscpack_1_1_0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\ZERO_CHECK.vcxproj">
+      <Project>5E39F693-743B-33ED-8B14-85DE06EA7001</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\OscDump.vcxproj">
+      <Project>ED79E164-DC72-3317-AD25-DFA875C98B22</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\OscReceiveTest.vcxproj">
+      <Project>28D39CD9-CF09-324E-A5F1-31F73DB2C66A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\OscSendTests.vcxproj">
+      <Project>2AD14772-9B8E-33A1-821F-7EB1E5D83D02</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\OscUnitTests.vcxproj">
+      <Project>992050F1-5F32-3239-91EF-B9515E0F1668</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\SimpleReceive.vcxproj">
+      <Project>1532EC92-52AC-3430-BB17-8BF6F280164C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\SimpleSend.vcxproj">
+      <Project>846C0510-0104-39D7-920B-9C9A6562DD99</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\AirPC\AppData\Local\CMakeBuild\e245a06d-5231-2932-87e9-9abf56987c8d\build\x64-Debug\oscpack.vcxproj">
+      <Project>9D1C53CF-9A7D-3376-9030-F1A605E3C165</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
